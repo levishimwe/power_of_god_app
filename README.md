@@ -2,9 +2,9 @@
 
 This Flutter app that helps users find relevant Bible verses based on their current situation or emotion.
 
-## Presented on: October 23, 2024 at 11:45 AM
+## Presented on: October 23, 2025 at 11:45 AM
 
-Note: Due to technical difficulties (computer freezing during presentation), the GitHub submission was delayed beyond the 5:00 PM deadline on October 23, 2024. The presentation was completed successfully during class time.
+Note: Due to technical difficulties (computer freezing during presentation), the GitHub submission was delayed beyond the 5:00 PM deadline on October 23, 2025 The presentation was completed successfully during class time.
 
 ## Widget Demonstration
 

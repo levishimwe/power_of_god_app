@@ -154,7 +154,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-
+ 
   Widget _buildSituationChip(BuildContext context, String situation) {
     final colors = [
       Colors.blue,
@@ -207,6 +207,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
+// Verses Screen displaying verses for a selected situation
 class VersesScreen extends StatelessWidget {
   final String situation;
   final List<Map<String, String>> verses;

@@ -76,9 +76,9 @@ A Flex widget structures the layout of screens, arranging components in a flexib
 
 1. Clone the repository
 
-   git clone 
-
-   cd power_of_god_ap
+    ## git clone https://github.com/levishimwe/power_of_god_app.git
+ 
+    ## cd power_of_god_ap
    
 2.Install dependencies
 
@@ -89,51 +89,26 @@ A Flex widget structures the layout of screens, arranging components in a flexib
    flutter run
    
 ## Project Structure
+<img width="302" height="515" alt="Screenshot from 2025-10-24 16-33-19" src="https://github.com/user-attachments/assets/d1ead55b-8565-4627-85c0-d31687c5ebf6" />
 
-lib/
-├── main.dart              # Entry point and main app logic
-    ├── PowerOfGodApp      # Root widget (MaterialApp)
-    ├── HomeScreen         # Search and situation tags
-
-
-  Wrap 
-    ├── VersesScreen       # Verses list (Flex )
-    └── VerseDetailScreen  # Full verse reading view
 
 
 ## Code Highlights
 
  # Wrap Widget Implementation (HomeScreen)
 
- Wrap(
-  spacing: 12.0,              // Horizontal gap between tags
-  runSpacing: 12.0,           // Vertical gap between rows
-  alignment: WrapAlignment.center,  // Center tags in each row
-  children: filteredSituations.map((situation) {
-    return _buildSituationChip(context, situation);
-  }).toList(),
-)
+<img width="763" height="310" alt="Screenshot from 2025-10-24 16-32-28" src="https://github.com/user-attachments/assets/16b678f0-bf21-4821-9f66-23e731ed75c2" />
+
+
 
 
  # Flex Widget Implementation (VersesScreen)
  
+<img width="451" height="250" alt="Screenshot from 2025-10-24 16-31-34" src="https://github.com/user-attachments/assets/bca476f8-d55b-4e06-a627-a357006c675a" />
 
-  body: Flex(
-        direction: Axis.vertical,
-        children: [
-          // Search Section
-          Container(
-            padding: const EdgeInsets.all(16.0),
-            color: Colors.blue[50],
-            child: TextField(
-              onChanged: (value) {
-                setState(() {
-                  searchQuery = value;
-                });
-              },
-              
+
             
-## Technologies Used
+## Tech Skiils Used
 
  1.Flutter - UI framework
  
